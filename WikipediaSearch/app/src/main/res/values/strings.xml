@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Wiki search</string>
+    <string name="select_your_language">Select your language:</string>
+    <string name="random_article">RANDOM ARTICLE</string>
+    <string name="search">SEARCH</string>
+    <string name="BigTitle">Wikipedia search</string>
+    <string name="polish">Polish</string>
+    <string name="english">English</string>
+    <string name="korean">Korean</string>
+    <string name="germany">Germany</string>
+    <string name="color">#000000</string>
+    <string name="web_test">web test</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="about">About</string>
+    <string name="wikipedia">Wikipedia</string>
+    <string name="close">Close</string>
+    <string name="refresh">Refresh</string>
+    <string name="go_page_up">Go page up</string>
+    <string name="french">French</string>
+    <string name="email">Email: patrykmarciszewski3@gmail.com</string>
+    <string name="spanish">Spanish</string>
+    <string name="link">Get link from this web page</string>
+    <string name="share">Share</string>
+    <string name="title">Wikipedia search</string>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@color/colorBackgroundWhite">
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/BigTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:paddingBottom="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <EditText
+        android:id="@+id/edit_text_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search"
+        android:inputType="text"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <Button
+        android:id="@+id/button_random_article"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/random_article"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_your_language"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:paddingBottom="10dp"/>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        tools:ignore="ScrollViewCount">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="10">
+
+            <TableRow>
+                <CheckBox
+                    android:id="@+id/checkbox_polish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checked"
+                    android:text="@string/polish" />
+
+            </TableRow>
+
+            <TableRow>
+                <CheckBox
+                    android:id="@+id/checkbox_english"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checked"
+                    android:text="@string/english" />
+
+            </TableRow>
+
+            <TableRow>
+                <CheckBox
+                    android:id="@+id/checkbox_korean"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checked"
+                    android:text="@string/korean" />
+
+            </TableRow>
+
+            <TableRow>
+                <CheckBox
+                    android:id="@+id/checkbox_germany"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checked"
+                    android:text="@string/germany" />
+            </TableRow>
+
+            <TableRow>
+                <CheckBox
+                    android:id="@+id/checkbox_french"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checked"
+                    android:text="@string/french"/>
+            </TableRow>
+
+            <TableRow>
+                <CheckBox
+                    android:id="@+id/checkbox_spanish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checked"
+                    android:text="@string/spanish"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/back_web_item"
+        android:icon="@drawable/ic_arrow_back"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/forward_web_item"
+        android:icon="@drawable/ic_arrow_forward"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/get_link_web_item"
+        android:title="@string/link"
+        android:icon="@drawable/ic_content_copy_white"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/share_page_web_item"
+        android:title="@string/share"
+        android:icon="@drawable/ic_share_white"
+        app:showAsAction="ifRoom"
+        android:actionProviderClass="android.widget.ShareActionProvider"/>
+
+    <item
+        android:id="@+id/go_page_up_web_item"
+        android:title="@string/go_page_up"
+        android:icon="@drawable/ic_arrow_drop_white"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/reload_web_item"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/refresh" />
+
+    <item
+        android:id="@+id/close_web_item"
+        android:icon="@drawable/ic_close"
+        android:title="@string/close" />
+
+
+
+</menu>
